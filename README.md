@@ -48,6 +48,7 @@
 >
 ><img style="float: center;" src="https://i.imgur.com/xXTGtY0.png">
 >
+>
 >Nella stessa barra si trovano le funzionalità chiave dell’applicazione,
 >ovverosia l’icona per poter eseguire una nuova ricerca e l’icona rappresentante
 >un cuore per poter impostare la città selezionata come preferita, in modo che,
@@ -87,8 +88,7 @@
 >rappresentarli vengono mostrati degli avvisi all’utente mediante l’utilizzo di
 >una Snackbar.
 >
->![](media/6a065bc99fba52cb10e8a9e094825c6d.png)
+><img style="float: left;" src="https://i.imgur.com/UJRrPz2.png">
 >
->![](media/610dec45341bd3e2ea2615bd249ed5fd.png)
+><img style="float: left;" src="https://i.imgur.com/Yur1BDh.png">
 >
->![](media/ef899d4ca0941ab7bf2f5045ac59c2d7.png)
