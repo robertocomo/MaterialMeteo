@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Meteo</string>
+    <string name="strNetworkNotAvaible">Sie haben keinen Internetzugang</string>
+    <string name="strNoSavedSetting">Die Anwendung hat keine Einstellung gespeichert</string>
+    <string name="strErrorGui">Fehler beim Aktualisieren der GUI</string>
+    <string name="strDownloadNoComplete">Kann nicht in der Lage sein, um den Download abzuschließen. Haben Sie verloren Internetzugang ?</string>
+    <string name="strNoInternet">Sie haben keinen Internetzugang</string>
+    <string name="strSelectCity">Zuerst wählen Sie eine Stadt</string>
+    <string name="strSelectSet">Wählen Sie die Menge der Einheiten\n</string>
+    <string name="strRestoreSetting">Einstellungen wiederherstellen</string>
+    <string name="strRestoreSettingMessage">\nWollen Sie wirklich die Präferenzen und Einheiten zu löschen?\n\n Beim nächsten Start werden Sie gebeten, eine Stadt zu betreten</string>
+    <string name="strDeletedData">Gelöschte Daten</string>
+    <string name="strAlreadyFavorite">Sie haben bereits Ihre Lieblingsstadt</string>
+     <string name="strConfirmReplace">Bestätigen Sie, dass Sie ersetzen möchten %1$s \t als Favorit Stadt zu betreten\n\n %2$s ?</string>
+    <string name="strConfirmCity">Wollen Sie wirklich %1$s als Lieblingsstadt zu betreten? \n\n Auf diese Weise, wenn die Anwendung wird automatisch gewählt</string>
+    <string name="strSetCityFavorite">Stellen Sie die Stadt als Favorit</string>
+    <string name="strCitySet">Die Stadt gesetzt als Favorit</string>
+    <string name="strWelcome">Herzlich willkommen</string>
+    <string name="strEnterCityAndSet">Geben Sie Ort zu suchen, und den Satz von Maßeinheiten wählen.</string>
+    <string name="strNothingSearch">Nichts zu suchen, Stadt ist leer</string>
+    <string name="strErrorFetching">Fehler beim Abrufen der Wetterdaten , Stadt ist leer</string>
+    <string name="strErrorDownloading">Fehler beim Herunterladen von Daten .. Sie haben ein Recht, Zugang zum Internet haben?</string>
+    <string name="strNoCityInformation">Keine Informationen Stadt gefunden </string>
+    <string name="strErrorDecoding">Fehler in der Datendekodierung , wahrscheinlich beschädigt</string>
+    <string name="strNoWeatherInfo">Keine Informationen zum Wetter für Ihre Stadt gefunden</string>
+    <string name="strNote">Hinweis: Die Wetterdaten nicht abgeschlossen werden kann</string>
+    <string name="strInformationPartial">Für die Stadt enthalten eine Liste der Informationen, teilweise sein könnte</string>
+    <string name="strMetric">METRIC UNIT</string>
+    <string name="strImperial">IMPERIAL UNIT </string>
+    <string name="strTimeout">Error connection timeout expired</string>
+    <string name="strWeatherError">Error while downloading weather data"</string>
+    <string name="searchable">Search</string>
+    <string name="searchInputDialog">Speek</string>
+    <string name="menuactionRefreshh">Refresh Meteo</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_search">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="actionLike">salva località</string>
+    <string name="actionErase">Erase Data</string>
+    <string name="strWind">Wind</string>
+    <string name="strSunrise">Morgendämmerung </string>
+    <string name="strSunset">Sonnenuntergang</string>
+    <string name="strVisibility">Sichtbarkeit</string>
+    <string name="strHumidity">Feuchtigkeit</string>
+    <string name="Pressure">Druck</string>
+    <string name="Longitude">Länge</string>
+    <string name="Latitude">Breite</string>
+    <string name="Forecast">Prognose</string>
+    <string name="strEnterCity">Geben Sie die Stadt</string>
+
+</resources>

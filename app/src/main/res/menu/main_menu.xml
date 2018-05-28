@@ -1,0 +1,59 @@
+<!--<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu1"
+        android:title="temp" />
+
+    <item android:id="@+id/menu2"
+        android:title="temp2" />
+
+    <item android:id="@+id/searchToolbar"
+        android:title="@string/menu_search"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+</menu>
+
+-->
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.roberto.theme.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/searchToolbar"
+        android:title="@string/menu_search"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:inputType="textAutoCorrect|textCapWords"
+        android:imeOptions="actionSearch"
+        android:orderInCategory="1"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:id="@+id/actionRefresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/menuactionRefreshh"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/actionLike"
+        android:icon="@drawable/ic_favourite"
+        android:title="@string/actionLike"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/actionErase"
+        android:icon="@drawable/ic_favourite"
+        android:title="@string/actionErase"
+        android:orderInCategory="4"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Meteo</string>
+    <string name="strNetworkNotAvaible">Vous ne disposez pas d\'un accès Internet</string>
+    <string name="strNoSavedSetting">L\'application n\'a pas sauvé paramètre</string>
+    <string name="strErrorGui">Erreur dans la mise à jour de GUI</string>
+    <string name="strDownloadNoComplete">Vous ne pouvez pas être en mesure d\'effectuer le téléchargement. Avez-vous perdu l\'accès à Internet?</string>
+    <string name="strNoInternet">Vous ne disposez pas d\'un accès Internet</string>
+    <string name="strSelectCity">Sélectionnez d\'abord une ville</string>
+    <string name="strSelectSet">Choisissez l\'ensemble des unités\n</string>
+    <string name="strRestoreSetting">Restaurer les paramètres</string>
+    <string name="strRestoreSettingMessage">\nVoulez-vous vraiment supprimer les préférences et les unités site?\n\n Au prochain démarrage, vous serez invité à entrer une ville</string>
+    <string name="strDeletedData">Les données supprimées</string>
+    <string name="strAlreadyFavorite">Vous avez déjà votre ville préférée</string>
+    <string name="strSetCityFavorite">Définir la ville en tant que favori</string>
+    <string name="strConfirmReplace">Confirmez que vous souhaitez remplacer %1$s \t d\'entrer comme ville préférée\n\n %2$s ?</string>
+    <string name="strConfirmCity">Voulez-vous vraiment à entrer dans %1$s comme ville préférée? \n\n De cette façon, lorsque l\'application sera automatiquement sélectionné</string>
+    <string name="strCitySet">La ville située en tant que favori</string>
+    <string name="strWelcome">Bienvenue</string>
+    <string name="strEnterCityAndSet">Entrez la ville à rechercher et à choisir l\'ensemble des unités de mesure.</string>
+    <string name="strNothingSearch">Rien à rechercher, la ville est vide</string>
+    <string name="strErrorFetching">Erreur de récupération des données météorologiques, la ville est vide</string>
+    <string name="strErrorDownloading">Erreur lors du téléchargement des données .. Avez-vous un accès internet à droite?</string>
+    <string name="strNoCityInformation">Aucune information de la ville trouvée pour </string>
+    <string name="strErrorDecoding">Erreur dans le décodage des données, probablement corrompu</string>
+    <string name="strNoWeatherInfo">Aucune information météo trouvée pour votre ville</string>
+    <string name="strNote">Remarque: les informations météo ne peut pas être terminée</string>
+    <string name="strInformationPartial">Pour la ville inclus une liste de l\'information pourrait être partielle</string>
+    <string name="strMetric">METRIC UNIT</string>
+    <string name="strImperial">IMPERIAL UNIT</string>
+    <string name="strTimeout">Error connection timeout expired</string>
+    <string name="strWeatherError">Error while downloading weather data"</string>
+    <string name="searchable">Search</string>
+    <string name="searchInputDialog">Speek</string>
+    <string name="menuactionRefreshh">Refresh Meteo</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_search">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="actionLike">salva località</string>
+    <string name="actionErase">Erase Data</string>
+    <string name="strSunrise">aube</string>
+    <string name="strHumidity">humidité</string>
+    <string name="strSunset">coucher du soleil</string>
+    <string name="strVisibility">visibilité</string>
+    <string name="strWind">vent</string>
+    <string name="Pressure">pression</string>
+    <string name="Longitude">longitude </string>
+    <string name="Latitude">latitude</string>
+    <string name="Forecast">prévision</string>
+    <string name="strEnterCity">Entrez la ville</string>
+
+</resources>

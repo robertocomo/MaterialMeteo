@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--CoordinatorLayout-->
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/homeLayout"
+    tools:context="com.example.roberto.materialmeteo.MainActivity">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/SwipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextAppearance="@style/ToolbarTextAppearance.Title"
+            app:subtitleTextAppearance="@style/ToolbarTextAppearance.Subtitle"
+            app:title="Inserisci la città"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            style="@style/MyToolbar"/>
+
+        <include layout="@layout/content_main" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+            <!--android:background="#FF21A6F3">-->
+
+            <android.support.v7.widget.CardView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/forecastCardViewBottom"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="5dp"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#FFEEEEEE">
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SET 04 2016"
+                        android:id="@+id/displayDateTodayTextView"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#212121"
+                        android:paddingBottom="2dp"
+                        android:textAllCaps="true"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TUS"
+                        android:id="@+id/displayDayTodayTextView"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#FF757575"
+                        android:paddingBottom="5dp"
+                        android:textAllCaps="true"
+                        android:textSize="12sp" />
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/displayForecastTodaySimpleDraweeView"
+                        fresco:placeholderImage="@drawable/ic_action_loading"
+                        android:visibility="visible"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:paddingBottom="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mostly Sunny"
+                        android:id="@+id/displayDescriptionTodayTextView"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#FF757575"
+                        android:paddingBottom="5dp"
+                        android:textStyle="italic"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="32°"
+                        android:id="@+id/displayMaxTemperatureTodayTextView"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#FFC62828"
+                        android:textStyle="bold"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="32°"
+                        android:id="@+id/displayMinTemperatureTodayTextView"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#FF80DEEA"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SET 04 2016"
+                        android:id="@+id/displayDateTomorrowTextView"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#212121"
+                        android:paddingBottom="2dp"
+                        android:textAllCaps="true"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TUS"
+                        android:id="@+id/displayDayTomorrowTextView"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#FF757575"
+                        android:paddingBottom="10dp"
+                        android:textAllCaps="true"
+                        android:textSize="12sp" />
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/displayForecastTomorrowSimpleDraweeView"
+                        fresco:placeholderImage="@drawable/ic_action_loading"
+                        android:visibility="visible"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:paddingBottom="5dp" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mostly Sunny"
+                        android:id="@+id/displayDescriptionTomorrowTextView"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#FF757575"
+                        android:paddingBottom="10dp"
+                        android:textStyle="italic"
+                        android:textSize="13sp"
+                        android:gravity="center" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="32°"
+                            android:id="@+id/displayMaxTemperatureTomorrowTextView"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="#FFC62828"
+                            android:textStyle="bold"
+                            android:textSize="17sp"
+                            android:paddingLeft="4dp"
+                            android:paddingRight="4dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="17°"
+                            android:id="@+id/displayMinTemperatureTomorrowTextView"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="#FF80DEEA"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"
+                            android:paddingRight="4dp"
+                            android:phoneNumber="false" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+
+   <!-- <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" />-->
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</android.support.design.widget.CoordinatorLayout>

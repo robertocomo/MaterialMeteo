@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Material Meteo</string>
+    <string name="searchable">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="Latitude">Latitude:</string>
+    <string name="Longitude">Longitude:</string>
+    <string name="searchInputDialog">Speek</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menuactionRefreshh">Refresh Meteo</string>
+    <string name="actionLike">Save Place</string>
+    <string name="actionErase">Erase Data</string>
+    <string name="strNetworkNotAvaible">You don\'t have any Internet access</string>
+    <string name="strNoSavedSetting">The application has no saved setting</string>
+    <string name="strErrorGui">Error in updating the GUI</string>
+    <string name="strDownloadNoComplete">Cannot be able to complete the download. Have you lost Internet access ?</string>
+    <string name="strNoInternet">You don\'t have any Internet access</string>
+    <string name="strSelectCity">First select a city</string>
+    <string name="strSelectSet">Choose the set of units\n</string>
+    <string name="strRestoreSetting">Restore Settings</string>
+    <string name="strRestoreSettingMessage">\nDo you really want to delete the place preferences and units?\n\nThe next time you will use the app the have to enter a new city.</string>
+    <string name="strDeletedData">Deleted data</string>
+    <string name="strAlreadyFavorite">You already have your favorite city</string>
+    <string name="strConfirmReplace">Confirm that you want to replace %1$s \t to enter as favorite city\n\n %2$s ?</string>
+    <string name="strConfirmCity">Do you really want to enter %1$s as favorite city? \n\nIn this way when the application starts it will be automatically selected.</string>
+    <string name="strSetCityFavorite">Set the city as favorite</string>
+    <string name="strCitySet">The city set as favorite</string>
+    <string name="strWelcome">Welcome</string>
+    <string name="strEnterCityAndSet">Enter city to look for and choose the set of measurement units.</string>
+    <string name="strNothingSearch">Nothing to search, city is empty</string>
+    <string name="strErrorFetching">Error fetching weather data, city is empty</string>
+    <string name="strErrorDownloading">Error while downloading data.. Do yo have a right internet acces ?</string>
+    <string name="strNoCityInformation">No city information found for </string>
+    <string name="strErrorDecoding">Error in decoding the data, probably corrupt</string>
+    <string name="strNoWeatherInfo">No weather information found for your city</string>
+    <string name="strNote">Note: the weather information may not be complete</string>
+    <string name="strInformationPartial">For the city included a list of the information could be partial</string>
+    <string name="strMetric">METRIC UNIT</string>
+    <string name="strImperial"> IMPERIAL UNIT </string>
+    <string name="strMetric_set" translatable="false">Km/h\t\t-\t\tmb\t\t-\t\t°C</string>
+    <string name="strImperial_set" translatable="false">mph\t\t-\t\tin\t\t-\t\t°F</string>
+    <string name="strTimeout">Error: connection timeout expired</string>
+    <string name="strWeatherError">Error while downloading weather data</string>
+    <string name="menu_search">Refresh</string>
+    <string name="strWind">Wind:</string>
+    <string name="strHumidity">Humidity:</string>
+    <string name="strVisibility">Visibility:</string>
+    <string name="Pressure">Pressure:</string>
+    <string name="strSunset">Sunset:</string>
+    <string name="strSunrise">Sunrise:</string>
+    <string name="Forecast">Forecast</string>
+    <string name="strEnterCity">Enter the City</string>
+
+</resources>
