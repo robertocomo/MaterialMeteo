@@ -5,47 +5,38 @@
 >effettuare due scelte: inserire il nome della città di cui disidera conoscere le
 >condizioni meteorologiche e specificare con quale sistema di unità di misura
 >internazionale esprimere e rappresentare le informazioni ottenute.
-
-<img style="float: left;" src="https://i.imgur.com/ZWkxJxt.png">
-
-<img style="float: left;" src="https://i.imgur.com/6Kar99N.png">
-
-
+>
+><img style="float: left;" src="https://i.imgur.com/ZWkxJxt.png">
+>
+><img style="float: left;" src="https://i.imgur.com/6Kar99N.png">
 
 
 Per i dispositivi che lo supportano, è possibile anche inserire
-
 il nome della città pronunciandolo a voce utilizzando la
-
 modalità Voice to Speech, che si attiva cliccando
-
 sull’icona a forma di microfono dedicata della tastiera.
-
 Affinché tale funzionalità possa essere utilizzata è
-
 indispensabile che sul dispositivo vi sia installato e sia
-
 attivo almeno il motore di sintesi vocale Google,
-
 normalmente presente come componente nativo di
-
 sistema.
 
-1.  Presentazione dei risultati
 
-Una volta che l’utente ha inserito la città nel campo di ricerca e dato
-conferma, in caso vengano trovati più risultati conformi questi vengono mostrati
-tramite un AlerDialog parametrizzato con una ListView, dando la possibilità
-all’utente medesimo di scegliere la corrispondenza consona alle iniziali
-intenzioni di ricerca.
+## 1.  Presentazione dei risultati
 
-![](media/fdb785cff2cff40e5e440c0b8533e6e2.png)
-
-![](media/1b005e7aab0ec7654d73428fe7f3d8f3.png)
-
-In caso invece per la città inserita venga rilevata una sola corrispondenza,
-questa viene automaticamente selezionata e mostrata nella grafica principale
-dell’applicazione.
+>Una volta che l’utente ha inserito la città nel campo di ricerca e dato
+>conferma, in caso vengano trovati più risultati conformi questi vengono mostrati
+>tramite un AlerDialog parametrizzato con una ListView, dando la possibilità
+>all’utente medesimo di scegliere la corrispondenza consona alle iniziali
+>intenzioni di ricerca.
+>
+>![](https://i.imgur.com/jB1hPNh.png)
+>
+>![](https://i.imgur.com/0LrxULi.png)
+>
+>In caso invece per la città inserita venga rilevata una sola corrispondenza,
+>questa viene automaticamente selezionata e mostrata nella grafica principale
+>dell’applicazione.
 
 1.  La Toolbar
 
