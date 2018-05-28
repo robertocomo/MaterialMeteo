@@ -78,6 +78,7 @@
 >set di unità di misura, ed infine la possibilità di modificare quest’ultimo on
 >the fly senza dover riavviare l’applicazione, aggiornando contestualmente quindi
 >i dati rappresentati.
+>
 ><img style="float: center;" src="https://i.imgur.com/p5Ugztm.png">
 >
 >In alternativa, per aggiornare le informazioni meteorologiche della città
