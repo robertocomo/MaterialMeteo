@@ -45,6 +45,7 @@
 >In alto a sinistra è riportato il nome della città
 >selezionata, seguito dall’eventuale
 >Regione/Distretto e Stato.
+>
 ><img style="float: center;" src="https://i.imgur.com/xXTGtY0.png">
 >
 >Nella stessa barra si trovano le funzionalità chiave dell’applicazione,
@@ -53,7 +54,7 @@
 >al contrario del primo avvio, questa sia direttamente mostrata senza doverla
 >reinserire nuovamente tutte le volte successive.
 >
-><img style="float: center;" src="https://i.imgur.com/o2Etncy.png">
+><img style="align: center;" src="https://i.imgur.com/o2Etncy.png">
 >
 >Cliccando sull’icona si ricerca il menù si espande facendo comparire una casella
 >di input dove l’utente può inserire la nuova interrogazione da sottomettere.
