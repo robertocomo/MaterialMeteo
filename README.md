@@ -30,9 +30,9 @@
 >all’utente medesimo di scegliere la corrispondenza consona alle iniziali
 >intenzioni di ricerca.
 >
->![](https://i.imgur.com/jB1hPNh.png)
+><img style="float: left;" src="https://i.imgur.com/jB1hPNh.png">
 >
->![](https://i.imgur.com/0LrxULi.png)
+><img style="float: left;" src="https://i.imgur.com/0LrxULi.png">
 >
 >In caso invece per la città inserita venga rilevata una sola corrispondenza,
 >questa viene automaticamente selezionata e mostrata nella grafica principale
@@ -41,17 +41,19 @@
 
 ## 1.  La Toolbar
 
-><img style="float: left;" src="https://i.imgur.com/xXTGtY0.png">In alto a sinistra è riportato il nome della città
+>
+>In alto a sinistra è riportato il nome della città
 >selezionata, seguito dall’eventuale
 >Regione/Distretto e Stato.
-
+<img style="float: center;" src="https://i.imgur.com/xXTGtY0.png">
+>
 >Nella stessa barra si trovano le funzionalità chiave dell’applicazione,
 >ovverosia l’icona per poter eseguire una nuova ricerca e l’icona rappresentante
 >un cuore per poter impostare la città selezionata come preferita, in modo che,
 >al contrario del primo avvio, questa sia direttamente mostrata senza doverla
 >reinserire nuovamente tutte le volte successive.
 >
->![](media/1c23fabf7f71380ebe2ea617e52bb1b2.png)
+<img style="float: center;" src="https://i.imgur.com/o2Etncy.png">
 >
 >Cliccando sull’icona si ricerca il menù si espande facendo comparire una casella
 >di input dove l’utente può inserire la nuova interrogazione da sottomettere.
@@ -61,14 +63,13 @@
 >partire la funzionalità. Cliccando l’icona a forma di cuore, prima di impostare
 >la città come preferita, viene mostrato un AlterDialog di conferma.
 >
->![](media/3f075b8a50d1b3dd25ecbce690f92ba1.png)
+><img style="float: left;" src="https://i.imgur.com/59AxtRp.png">
 >
->![](media/984c7eabd7aabb8a01cad81e8a31d0ae.png)
+><img style="float: left;" src="https://i.imgur.com/RdpUTeB.png">
+>
 
 ## 1.  Azioni aggiuntive
 
->![](media/c3c5c5e34ff1409b4a6d0e1e9e0a1fb4.png)
->
 >Cliccando sull’ultimo pulsante a destra presente nella Toolbar è possibile
 >richiamare un menù che offre la possibilità di aggiornare le informazioni
 >meteorologiche della città selezionata, cancellare ogni tipologia di preferenza
@@ -76,6 +77,7 @@
 >set di unità di misura, ed infine la possibilità di modificare quest’ultimo on
 >the fly senza dover riavviare l’applicazione, aggiornando contestualmente quindi
 >i dati rappresentati.
+><img style="float: center;" src="https://i.imgur.com/p5Ugztm.png">
 >
 >In alternativa, per aggiornare le informazioni meteorologiche della città
 >selezionata è sufficiente effettuare uno swipe verso il basso, richiamando la
