@@ -1,3 +1,4 @@
+
 # 1.  Avvio.
 
 >L’applicazione all’avvio presenta un AlerDialog che invita l’utente ad
@@ -5,9 +6,11 @@
 >condizioni meteorologiche e specificare con quale sistema di unità di misura
 >internazionale esprimere e rappresentare le informazioni ottenute.
 
-![](https://i.imgur.com/ZWkxJxt.png)
+<img style="float: left;" src="https://i.imgur.com/ZWkxJxt.png">
 
-![](https://i.imgur.com/6Kar99N.png)
+<img style="float: left;" src="https://i.imgur.com/6Kar99N.png">
+
+
 
 
 Per i dispositivi che lo supportano, è possibile anche inserire
